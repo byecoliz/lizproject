@@ -8,7 +8,7 @@ class Menu_Patient	extends CI_Controller
  }
  
 
- function index($page = 'home')
+ function index($page = 'menu')
    {	
    
 	$data['title'] = ucfirst($page);

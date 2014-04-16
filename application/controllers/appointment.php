@@ -8,7 +8,7 @@ public function __construct()
 		session_start();
 	}
 	
-	public function index($page = 'home')
+	public function index($page = 'appointment')
 	{
 	
 	$this->load->model('appointment_model');

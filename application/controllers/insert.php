@@ -9,13 +9,9 @@ public function __construct()
 
 	}
 	
-	public function index($page = 'home')
+	public function index($page = 'appointment')
 	{
-	if ( ! file_exists('application/views/pages/'.$page.'.php'))
-	{
-		show_404();
-	}
-
+	
 	$data['title'] = ucfirst($page);
 	$data['main_content'] = 'pages/appointment_insert';
 	$this->load->view('templates/template',$data); 
