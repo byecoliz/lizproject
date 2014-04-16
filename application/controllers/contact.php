@@ -2,7 +2,7 @@
 
 class Contact extends CI_Controller {
 
-	function index()
+	function index( )
 	{
 		
 		$this->form_validation->set_rules('contact-name', 'Your Name', 'required');
@@ -20,9 +20,13 @@ class Contact extends CI_Controller {
 				$this->load->view('pages/thanks_contact');
  				}
  		}
-		 $this->index();
+		 //$this->index();
 		//return false;
 	  // echo form_open('contact'); 
+	  
+	 // $this->load->view('pages/test');
+	  $data['main_content'] = 'pages/home';
+     $this->load->view('templates/template',$data);
 	}
 }
 ?>

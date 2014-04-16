@@ -10,12 +10,12 @@ public function __construct()
         $this->load->library('form_validation');
 	}
 	
-	public function index($page = 'home')
+	public function index($page = 'login')
 	{
-	if ( ! file_exists('application/views/pages/'.$page.'.php'))
-	{
-		show_404();
-	}
+	//if ( ! file_exists('application/views/pages/'.$page.'.php'))
+	//{
+	//	show_404();
+	//}
 	$data['title'] = ucfirst($page);
 	$data['main_content'] = 'pages/LoginForm_Patient';
 	$this->load->view('templates/template',$data); 
