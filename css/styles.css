@@ -1,0 +1,41 @@
+Body{
+	margin-bottom:80px;
+}
+.page-header{
+	margin-top:0;
+}
+
+.panel-body{
+padding-top:0;
+}
+.featuredimg{
+margin-bottom:15px;
+}
+table{
+margin-bottom:10px;
+}
+td{
+border-right:1px solid #aaaaaa;
+padding: 1cm;
+}
+
+.error
+{
+   font-family: Verdana, Arial, sans-serif; 
+   font-size: 0.7em;
+   color: #900;
+   
+}
+pagination a{
+background:#B2FF99;
+padding: 4px 7px;
+text-decoration:none;
+border:1px solid #FFFF85;
+}
+
+.calendar{
+font-family:Arial;font-size:12px;
+}
+table.calendar{
+margin:auto;border-collapse:collapse;
+}
