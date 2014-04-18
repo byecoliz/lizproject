@@ -4,7 +4,7 @@
 			<div class=" panel panel-default">
 				<div class="panel-body">
 					<div class="page-header">
-						<h3>You are logged in as: <small><?php  echo $_SESSION['username'];?></small></h3> 
+						<h3>You are logged in as: <small><?php  echo $this->session->userdata('username');?></small></h3>
 					 </div>
 					 
 					<div id="container">
@@ -51,7 +51,7 @@
 				
 				
 				<p class="list-group-item-text">
-				Our selection of amazing stock photos and images is huge, with millions of professional photos that have been carefully chosen and sorted specifically for Microsoft Office users like you. Whether you are looking for cool backgrounds, clipart or digital pictures to illustrate PPT slide presentations, Outlook emails, webpages, printed brochures or other Word documents, we’ve got you covered. And whether your application is high-tech business, education or medical technology, and whether you are looking for something creative or corporate, you guessed it: We’ve got you covered. 
+				Our selection of amazing stock photos and images is huge, with millions of professional photos that have been carefully chosen and sorted specifically for Microsoft Office users like you. Whether you are looking for cool backgrounds, clipart or digital pictures to illustrate PPT slide presentations, Outlook emails, webpages, printed brochures or other Word documents, weï¿½ve got you covered. And whether your application is high-tech business, education or medical technology, and whether you are looking for something creative or corporate, you guessed it: Weï¿½ve got you covered. 
 				</p>
 			
 				

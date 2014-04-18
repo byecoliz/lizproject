@@ -5,7 +5,6 @@ public function __construct()
 	{
 	
 		parent::__construct();
-		session_start();
 		$this->load->helper(array('form','url'));
         $this->load->library('form_validation');
 	}
@@ -33,7 +32,7 @@ $this->form_validation->set_rules('password', 'Password','trim|required|min_leng
  
   if($res !== false)
   {
-  $_SESSION['username']= $this->input->post('patientid');
+   $this->session->set_userdata('username',$this->input->post('patientid'));
    
    redirect('Menu_Patient/index');
   }

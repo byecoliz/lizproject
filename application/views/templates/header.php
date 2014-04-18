@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo $title ?> -JL Hospital</title>
-	<link href="/jh/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="/jh/css/styles.css"  >
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/css/styles.css"  >
 		 
 	 
 	 
@@ -25,13 +25,13 @@
 			<ul class="nav navbar-nav navbar-right">
 			
 				
-				<li class="active"> <a href="/jh/home">Home</a></li>
+				<li class="active"> <a href="<?php echo base_url(); ?>home">Home</a></li>
 						
 				<li class="dropdown">
 					<a href ="#" class= "dropdown-toggle" data-toggle="dropdown">Profile <b class="caret"b></b>
 						<ul class="dropdown-menu">
 												
-							<li><a href ="/jh/login">Login</a></li>
+							<li><a href ="<?php echo base_url(); ?>login">Login</a></li>
 							<!--<li><a href ="#">Log out</a></li> -->
 							<li><?php echo anchor('Menu_Patient/logout','Logout'); ?></li>
 
